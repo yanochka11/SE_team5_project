@@ -17,14 +17,13 @@ In audio editing and production, having the ability to compress or stretch audio
 
 Software Engineering Techniques:
 
-  1)The Bash script run.sh runs the problem solution.
+  1. The Bash script run.sh runs the problem solution.
   Input data:
 <input.wav> - the path to the original WAV file
 
 <output.wav> - the path to the file that is the result of the program's operation
 
 <time_stretch_ratio> - the parameter 'r' of the algorithm. (0 < r < 1 - compress, 1 <= r - stretch)
-
-  2) Development using Git
-  3) Test scripts
+  2. Development using Git
+  3. Test scripts
 
