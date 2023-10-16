@@ -16,6 +16,7 @@ Application:
 In audio editing and production, having the ability to compress or stretch audio files without changing their pitch or without causing noticeable artifacts is crucial. This allows for more creative control and flexibility in the production process. For instance, in film and video game production, background music or sound effects might need to be time-stretched or compressed to match the timing of specific scenes.
 
 Software Engineering Techniques:
+
   1)The Bash script run.sh runs the problem solution.
   Input data:
 <input.wav> - the path to the original WAV file
