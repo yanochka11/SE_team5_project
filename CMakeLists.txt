@@ -25,7 +25,7 @@ if(NOT LIBSNDFILE1_INSTALLED)
 
   if (UNIX AND NOT APPLE)
     execute_process(
-      COMMAND sudo apt-get install ${LIBSNDFILE1_PACKAGE}
+      COMMAND apt-get -y install ${LIBSNDFILE1_PACKAGE}
       RESULT_VARIABLE INSTALL_RESULT
     )
   elseif (APPLE)
@@ -55,7 +55,7 @@ if(NOT LIBSNDFILE1_DEV_INSTALLED)
 
   if (UNIX AND NOT APPLE)
     execute_process(
-	    COMMAND sudo apt-get install ${LIBSNDFILE1_DEV_PACKAGE}
+	    COMMAND apt-get -y install ${LIBSNDFILE1_DEV_PACKAGE}
       RESULT_VARIABLE INSTALL_RESULT
     )
   elseif (APPLE)
