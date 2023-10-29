@@ -27,5 +27,6 @@ Software Engineering Techniques:
 
   2. Development using Git
      
-  3. Test scripts
-
+  3. Test scripts:
+python3 test_main.py
+![image](https://github.com/yanochka11/SE_team5_project/assets/113786160/77e4307a-ca06-4311-b618-3d518c356366)
