@@ -57,7 +57,6 @@ cd SE_team5_project
 mkdir build
 cd build
 cmake --build . --target RunPythonScript
-./RunPythonScript
 
 ```
 
