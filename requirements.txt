@@ -2,3 +2,5 @@ librosa
 numpy
 soundfile
 matplotlib
+pysoundfile
+libsndfile1
