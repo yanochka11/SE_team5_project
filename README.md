@@ -17,18 +17,18 @@ In audio editing and production, having the ability to compress or stretch audio
 
 ## Software Engineering Techniques:
 
-  1. The script 'main.py' runs the problem solution.
+  1. The script `main.py` runs the problem solution.
   Input data:
-'input.wav' - the path to the original WAV file
+`input.wav` - the path to the original WAV file
 
-'output.wav' - the path to the file that is the result of the program's operation
+`output.wav` - the path to the file that is the result of the program's operation
 
-'time_stretch_ratio' - the parameter 'r' of the algorithm. (0 < r < 1 - compress, 1 <= r - stretch)
+`time_stretch_ratio` - the parameter 'r' of the algorithm. (0 < r < 1 - compress, 1 <= r - stretch)
 
   2. Development using Git
      
   3. Test scripts:
-'python3 test_main.py'
+`python3 test_main.py`
 ![image](https://github.com/yanochka11/SE_team5_project/assets/113786160/77e4307a-ca06-4311-b618-3d518c356366)
 
 ## Quickstart
@@ -66,11 +66,11 @@ To run solution (inside Docker or locally):
 ```
 python3 main.py 'input.wav' 'output.wav' time_stretch_ratio
 ```
-'input.wav' - the path to the original WAV file
+`input.wav` - the path to the original WAV file
 
-'output.wav' - the path to the file that is the result of the program's operation
+`output.wav` - the path to the file that is the result of the program's operation
 
-'time_stretch_ratio' - the parameter 'r' of the algorithm. (0 < r < 1 - compress, 1 <= r - stretch)
+`time_stretch_ratio` - the parameter 'r' of the algorithm. (0 < r < 1 - compress, 1 <= r - stretch)
 
 To run tests:
 
